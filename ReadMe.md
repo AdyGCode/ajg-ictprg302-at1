@@ -7,9 +7,55 @@ This **Private** repository contains the work for ICTPRG302 Portfolio Parts 1 an
 - Adrian Gould (Lecturer) <adrian.gould@nmtafe.wa.edu.au>
 - YOUR NAME (Student) <STUDENT_ID@tafe.wa.edu.au>
 
-## Checklist of Py4E Exercises
 
-Replace the [ ] with [X] when completed the exercise.
+## Using Your Repository
+
+Complete the exercise you have been requested to do in the Assessment.
+
+Once it is working, make sure that the code has at least the following line before any code in Py4E.
+
+```python
+# YOUR_NAME, STUDENT ID
+```
+
+Make sure to replace:
+
+- `YOUR_NAME` with your full name, and
+- `STUDENT_ID` with your student ID.
+
+We also suggest adding the following as the next line:
+
+```python
+# Py4E Exercise X.Y
+```
+
+Replacing the X.Y with the exercise number from the Assessment document.
+
+Once you have it all working do the following:
+
+- Create a new Python file in the correct chapter folder (e.g. Exercise 10.2 is placed in `ch-11`.) with the
+  name `ex-X-Y.py` (e.g. Exercise 10.2 would be saved in a file `ex-10-2.py`.)
+- Copy your Python code from Py4E and paste into your new file.
+- Save the File (`CTRL`+`S`)
+- Add the Python File to your repository using
+
+```shell
+git add ch-xx\ex-xx.py
+```
+
+Once all the exercises from the chapter are completed, complete these next steps:
+
+- Tick off the exercise(s) in the `ReadMe.md` file,
+- Use `git add` to add the ReadMe.md to staging,
+- FCommit the files using the command below, making sure that the X is replaced with the correct chapter number.
+
+```shell
+git commit -m "feat: Complete Chapter-X exercises."
+```
+
+# Checklist of Py4E Exercises
+
+Replace the [ ] with [X] when you have completed the exercise.
 
 - [ ] Chapter 2
     - [ ] Py4E 1.1 (Hello World)
@@ -22,19 +68,20 @@ Replace the [ ] with [X] when completed the exercise.
 - [ ] Chapter 5
     - [ ] Py4E 4.6
 - [ ] Chapter 6
-    - [ ] Py4E ...
+    - [ ] Py4E 5.2
 - [ ] Chapter 7
-    - [ ] Py4E ...
+    - [ ] Py4E 6.5
 - [ ] Chapter 8
-    - [ ] Py4E ...
+    - [ ] Py4E 7.2
 - [ ] Chapter 9
-    - [ ] Py4E ...
+    - [ ] Py4E 8.4
+    - [ ] Py4E 8.5
 - [ ] Chapter 10
-    - [ ] Py4E ...
+    - [ ] Py4E 9.4
 - [ ] Chapter 11
-    - [ ] Py4E ...
+    - [ ] Py4E 10.2
 
-## Setting Up This Portfolio
+# Setting Up This Portfolio
 
 > NOTE: These steps presume you are using MS Windows and have Microsoft Terminal and Git installed via git-scm or
 > Laragon. We also presume you have a GitHub account.
