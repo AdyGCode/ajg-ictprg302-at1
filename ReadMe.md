@@ -46,8 +46,8 @@ git add ch-xx\ex-xx.py
 Once all the exercises from the chapter are completed, complete these next steps:
 
 - Tick off the exercise(s) in the `ReadMe.md` file,
-- Use `git add` to add the ReadMe.md to staging,
-- FCommit the files using the command below, making sure that the X is replaced with the correct chapter number.
+- Use `git add` to add the `ReadMe.md` to staging,
+- Commit the files using `git commit`, making sure that the `X` is replaced with the correct chapter number.
 
 ```shell
 git commit -m "feat: Complete Chapter-X exercises."
@@ -57,28 +57,28 @@ git commit -m "feat: Complete Chapter-X exercises."
 
 Replace the [ ] with [X] when you have completed the exercise.
 
-- [ ] Chapter 2
+- [ ] [Chapter 2](ch-02)
     - [ ] Py4E 1.1 (Hello World)
-- [ ] Chapter 3
+- [ ] [Chapter 3](ch-3)
     - [ ] Py4E 2.2
     - [ ] Py4E 2.3
-- [ ] Chapter 4
+- [ ] [Chapter 4](ch-4)
     - [ ] Py4E 3.1
     - [ ] Py4E 3.3
-- [ ] Chapter 5
+- [ ] [Chapter 5](ch-5)
     - [ ] Py4E 4.6
-- [ ] Chapter 6
+- [ ] [Chapter 6](ch-6)
     - [ ] Py4E 5.2
-- [ ] Chapter 7
+- [ ] [Chapter 7](ch-7)
     - [ ] Py4E 6.5
-- [ ] Chapter 8
+- [ ] [Chapter 8](ch-8)
     - [ ] Py4E 7.2
-- [ ] Chapter 9
+- [ ] [Chapter 9](ch-9)
     - [ ] Py4E 8.4
     - [ ] Py4E 8.5
-- [ ] Chapter 10
+- [ ] [Chapter 10](ch-10)
     - [ ] Py4E 9.4
-- [ ] Chapter 11
+- [ ] [Chapter 11](ch-11)
     - [ ] Py4E 10.2
 
 # Setting Up This Portfolio
@@ -96,7 +96,7 @@ Create a new repository using the New + button:
 
 Then fill out the settings...
 
-- Name the repository as XXX-ICTPRG302-AT1 where XXX are your initials
+- Name the repository as `XXX-ICTPRG302-AT1` where `XXX` are your initials
 - Add a description of ICTPRG302 Portfolio work for Parts 1 and 2
 
 ![img_1.png](assets/img_1.png)
@@ -171,31 +171,33 @@ The Python version should show something similar to `Python 3.12.1`. DO NOT use 
 
 ![img_7.png](assets/img_7.png)
 
-Click Create
+Click Create.
 
 As the folder has folders and files we will use the "Create from Existing Source" option:
 
 ![img_8.png](assets/img_8.png)
 
-Pycharm will now complete the project setup by creating the virtual environment, and may ask if you wish to add main.py
-to version control. You may elect to do so.
+Pycharm will now complete the project setup by 
+creating the virtual environment, and may ask 
+if you wish to add `main.py` to version control. 
+You may elect to do so.
 
 ## Creating a `.gitignore` file using the `.ignore` plugin
 
-We need to make a .gitignore file. The easiest way to do this is to use the .ignore plugin.
+We need to make a `.gitignore` file. The easiest way to do this is to use the ".ignore" plugin.
 
-Open the PyCharm Settings using CTRL+ALT+S
+Open the PyCharm Settings using `CTRL`+`ALT`+`S`.
 
-Locate and click on Plugins
+Locate and click on Plugins.
 
 ![img_9.png](assets/img_9.png)
 
 On the tabs on the right, click Marketplace.
 
-By default, the .ignore plugin is usually in the "staff picks".
+By default, the ".ignore" plugin is usually in the "staff picks".
 
-Click on it to select then click the `INSTALL` button (not shown here as it is already installed on this copy of
-PyCharm).
+Click on it to select then click the `INSTALL` button (not shown here as 
+it is already installed on this copy of PyCharm).
 
 ![img_10.png](assets/img_10.png)
 
@@ -205,9 +207,9 @@ Once completed, click OK.
 
 If Pycharm Asks you to restart then do so.
 
-Once you are back in the main editor for the project you are now able to create the .ignore file.
+Once you are back in the main editor for the project you are now able to create the ".ignore" file.
 
-### Making the .gitignore file
+### Making the `.gitignore` file
 
 Right Mouse click on the Project name (on the left of the IDE).
 
