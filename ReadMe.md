@@ -12,32 +12,32 @@ This **Private** repository contains the work for ICTPRG302 Portfolio Parts 1 an
 Replace the [ ] with [X] when completed the exercise.
 
 - [ ] Chapter 2
-	- [ ] Py4E 1.1 (Hello World)
+    - [ ] Py4E 1.1 (Hello World)
 - [ ] Chapter 3
-	- [ ] Py4E 2.2
-	- [ ] Py4E 2.3
+    - [ ] Py4E 2.2
+    - [ ] Py4E 2.3
 - [ ] Chapter 4
-	- [ ] Py4E 3.1
-	- [ ] Py4E 3.3
+    - [ ] Py4E 3.1
+    - [ ] Py4E 3.3
 - [ ] Chapter 5
-	- [ ] Py4E 4.6
+    - [ ] Py4E 4.6
 - [ ] Chapter 6
-	- [ ] Py4E ...
+    - [ ] Py4E ...
 - [ ] Chapter 7
-	- [ ] Py4E ...
+    - [ ] Py4E ...
 - [ ] Chapter 8
-	- [ ] Py4E ...
+    - [ ] Py4E ...
 - [ ] Chapter 9
-	- [ ] Py4E ...
+    - [ ] Py4E ...
 - [ ] Chapter 10
-	- [ ] Py4E ...
+    - [ ] Py4E ...
 - [ ] Chapter 11
-	- [ ] Py4E ...
-
+    - [ ] Py4E ...
 
 ## Setting Up This Portfolio
 
-> NOTE: These steps presume you are using MS Windows and have Microsoft Terminal and Git installed via git-scm or Laragon. We also presume you have a GitHub account.
+> NOTE: These steps presume you are using MS Windows and have Microsoft Terminal and Git installed via git-scm or
+> Laragon. We also presume you have a GitHub account.
 
 ### Create a Repository on GitHub
 
@@ -55,7 +55,7 @@ Then fill out the settings...
 ![img_1.png](assets/img_1.png)
 
 - Change the repository to a PRIVATE one
-![img_2.png](assets/img_2.png)
+  ![img_2.png](assets/img_2.png)
 
 - Make sure that the other options are unchecked or blank:
 
@@ -71,18 +71,22 @@ Open Microsoft Terminal (or the equivalent for your operating system).
 
 Create a new Git-Bash shell (see notes on the TAFE LMS).
 
-Use the following commands to change into the `Source/Repos` folder and create a new folder for this project, then change into this new folder:
+Use the following commands to change into the `Source/Repos` folder and create a new folder for this project, then
+change into this new folder:
 
 ```shell
 cd ~/Source/Repos
 git clone https://github.com/AdyGCode/xxx-ictprg301-at1.git
 ```
+
 It will tell you that you cloned an empty repository.
 
 Change into the new folder:
+
 ```shell
 cd xxx-ICTPRG302-AT1
 ```
+
 Remember to replace `xxx` with your initials.
 
 Now execute the following commands to create an empty ReadMe file and add it to version control.
@@ -98,6 +102,7 @@ Next we will create folders for each chapter of Py4E's exercises.
 mkdir ch-{01,02,03,04,05,06,07,08,09,10,11}
 touch ch-01/.keep
 ```
+
 We also have created a hidden file (`.keep`) in `ch-01` folder.
 
 ## Editing the ReadMe
@@ -109,7 +114,7 @@ This will allow us to create a Python Virtual Environment at the same time.
 
 ![img_5.png](assets/img_5.png)
 
-Now give the project the same name as the folder that the git clone command created, 
+Now give the project the same name as the folder that the git clone command created,
 and select the correct parent folder for this folder.
 
 ![img_6.png](assets/img_6.png)
@@ -125,7 +130,8 @@ As the folder has folders and files we will use the "Create from Existing Source
 
 ![img_8.png](assets/img_8.png)
 
-Pycharm will now complete the project setup by creating the virtual environment, and may ask if you wish to add main.py to version control. You may elect to do so.
+Pycharm will now complete the project setup by creating the virtual environment, and may ask if you wish to add main.py
+to version control. You may elect to do so.
 
 ## Creating a `.gitignore` file using the `.ignore` plugin
 
@@ -139,13 +145,14 @@ Locate and click on Plugins
 
 On the tabs on the right, click Marketplace.
 
-By default the .ignore plugin is usually in the "staff picks".
+By default, the .ignore plugin is usually in the "staff picks".
 
-Click on it to select then click the INSTALL button (not shown here as it is already installed on this copy of PyCharm).
+Click on it to select then click the `INSTALL` button (not shown here as it is already installed on this copy of
+PyCharm).
 
 ![img_10.png](assets/img_10.png)
 
-Accept any 3rd party notic, and Pycharm will go ahead and add the plugin.
+Accept any 3rd party notice, and Pycharm will go ahead and add the plugin.
 
 Once completed, click OK.
 
@@ -165,7 +172,7 @@ When the pop-out appears move over the new area and at the bottom you will see .
 
 ![img_12.png](assets/img_12.png)
 
-This will then pop-out a new area and you will find .gitignore at the top.
+This will then pop-out a new area, and you will find .gitignore at the top.
 
 ![img_13.png](assets/img_13.png)
 
@@ -173,17 +180,19 @@ Click on this to open the .ignore generator dialog box:
 
 ![img_14.png](assets/img_14.png)
 
-You will not have an starred templates but we will resolve this.
+You will not have any starred templates, but we will resolve this.
 
-To add files that are associated with a particular application, framework or language we simply tick the box next tot he name.
+To add files that are associated with a particular application, framework or language we simply tick the box next to the
+name.
 
 ![img_15.png](assets/img_15.png)
 
-To make a 'template` a favourite we locate it in the list, select it by clicking on the name, then clicking the * at the top of the list:
+To make a 'template` a favourite we locate it in the list, select it by clicking on the name, then clicking the * at the
+top of the list:
 
 ![img_16.png](assets/img_16.png)
 
-This adds the tempalte to the list of starred ones (favourites).
+This adds the template to the list of starred ones (favourites).
 
 Our suggested list is:
 
@@ -207,18 +216,19 @@ Now click on Generate to make the new .gitignore.
 
 ![img_17.png](assets/img_17.png)
 
-If it asks if you wish to add to Git then you may click ADD.
-
+PyCharm may ask if you wish to add the file(s) to Git then you may click ADD.
 
 ## Committing the Start of the Portfolio
 
 Add any changed files:
+
 ```shell
 git add ReadMe.md
 git add .gitignore
 git add .idea/
 ```
-> **IMPORTANT**: A little more dangerous approach is to use `git add .` 
+
+> **IMPORTANT**: A little more dangerous approach is to use `git add .`
 > but beware... this will add **ALL FILES AND FOLDERS** that are
 > in the project **UNLESS THEY ARE .IGNORED**!
 
@@ -227,9 +237,9 @@ Now commit these files to the repo with a message that you are starting the repo
 
 ```shell
 git commit -m "init: Create new repository for ICTPRG302 Portfolio"
-`
+```
 
-Finally push the changes to the remote:
+Finally, push the changes to the remote:
 
 ```shell
 git push -u origin main
